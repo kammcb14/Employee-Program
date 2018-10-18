@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainController">
+   <children>
+      <MenuBar>
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Add Employee" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <ImageView fitHeight="111.0" fitWidth="136.0" pickOnBounds="true" preserveRatio="true" />
+            <VBox prefHeight="111.0" prefWidth="466.0" spacing="10.0">
+               <children>
+                  <Label prefHeight="17.0" prefWidth="136.0" text="Employee Name" />
+                  <HBox>
+                     <children>
+                        <Label prefHeight="17.0" prefWidth="50.0" text="Email " />
+                        <Label alignment="CENTER_RIGHT" text="Phone Number" textAlignment="CENTER" />
+                     </children>
+                  </HBox>
+                  <Label text="Position" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</VBox>
